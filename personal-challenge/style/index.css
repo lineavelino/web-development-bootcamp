@@ -1,0 +1,37 @@
+body {
+  background-color: #e3d2c9;
+  text-align: center;
+  margin: 50px;
+}
+
+img {
+  height: 200px;
+  width: 200px;
+  border-radius: 100px;
+}
+
+h1 {
+  font-family: "Oswald", sans-serif;
+  color: #4a423e;
+}
+
+p {
+  font-family: "Fira Sans", sans-serif;
+  color: #534b4b;
+}
+
+a {
+  color: #975a4a;
+  text-decoration: none;
+}
+
+a:hover {
+  color: #8b412e;
+  text-decoration: underline;
+}
+
+#challenge {
+  color: #975a4a;
+  font-size: 50px;
+  font-weight: bold;
+}
