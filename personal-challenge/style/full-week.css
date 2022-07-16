@@ -8,6 +8,11 @@ h1 {
   font-size: 50px;
 }
 
-p {
+ul {
+  list-style: none;
+}
+
+li {
   font-size: 20px;
+  line-height: 50px;
 }

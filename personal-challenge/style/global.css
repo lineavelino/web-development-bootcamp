@@ -8,7 +8,8 @@ h1 {
   font-family: "Oswald", sans-serif;
 }
 
-p {
+p,
+li {
   font-family: "Fira Sans", sans-serif;
   color: #534b4b;
 }
