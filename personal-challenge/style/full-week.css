@@ -3,15 +3,22 @@ a {
   color: #fff;
   padding: 10px 20px;
   border-radius: 10px;
+  font-family: "Fira Sans", sans-serif;
 }
 
 a:hover {
   color: #ffffffe5;
+  background-color: #b40c5a;
+}
+
+header {
+  margin-bottom: 30px;
 }
 
 h1 {
-  color: #975a4a;
+  color: #3f3738;
   font-size: 50px;
+  margin: 20px 0;
 }
 
 ul {
