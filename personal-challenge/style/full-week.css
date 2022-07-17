@@ -35,3 +35,17 @@ li {
   background-color: #d1a09678;
   border-radius: 20px;
 }
+
+h2 {
+  color: #4d1307;
+  margin: 8px 0;
+}
+
+main p {
+  color: #431e18;
+  margin: 12px 0;
+}
+
+.highlight-goal {
+  background-color: #c5665378;
+}
