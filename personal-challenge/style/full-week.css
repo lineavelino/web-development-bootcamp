@@ -1,5 +1,12 @@
+a {
+  background-color: #ab1647;
+  color: #fff;
+  padding: 10px 20px;
+  border-radius: 10px;
+}
+
 a:hover {
-  color: #975a4a;
+  color: #ffffffe5;
 }
 
 h1 {
