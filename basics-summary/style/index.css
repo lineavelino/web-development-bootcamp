@@ -6,7 +6,7 @@ body {
 }
 
 h1 {
-  font-size: 40px;
+  font-size: 52px;
   color: #5932c3;
 }
 
@@ -20,7 +20,7 @@ main {
   text-align: left;
   width: 700px;
   margin: 55px auto 40px auto;
-  padding: 20px;
+  padding: 32px;
   border-radius: 5px;
   box-shadow: 3px 4px 5px rgba(0, 0, 0, 0.3);
 }
@@ -33,7 +33,7 @@ li {
   padding-left: 15px;
   list-style: none;
   margin-bottom: 15px;
-  border-left: 3px solid #6836d4;
+  border-left: 3px solid transparent;
 }
 
 main a {
@@ -62,5 +62,5 @@ footer {
 
 .highlight {
   color: #eeda94;
-  border-left: 3px solid #d6b641;
+  border-color: #d6b641;
 }
