@@ -1,0 +1,48 @@
+#explore {
+  height: 800px;
+  background-image: url(/img/ocean.jpg);
+  background-size: cover;
+  background-position: center;
+}
+
+#box-explore {
+  background-color: rgba(0, 0, 0, 0.6);
+  width: 700px;
+  height: 200px;
+  margin: 0 auto;
+  padding: 20px;
+  text-align: center;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-evenly;
+  position: relative;
+  top: 200px;
+  border-radius: 8px;
+  box-shadow: 2px 2px 10px;
+}
+
+#box-explore h2 {
+  text-transform: uppercase;
+  color: #ebe8e8fc;
+  font-size: 40px;
+  font-family: "Raleway", sans-serif;
+}
+
+#box-explore p {
+  text-transform: uppercase;
+  color: #ebe8e8fc;
+}
+
+#box-explore a {
+  background-color: #dcdc22;
+  margin: 0 auto;
+  padding: 10px 20px;
+  text-decoration: none;
+  color: #0e0e0e;
+  font-weight: 700;
+  border-radius: 8px;
+}
+
+#box-explore a:hover {
+  background-color: #f7f738;
+}
