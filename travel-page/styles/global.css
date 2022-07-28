@@ -1,0 +1,48 @@
+* {
+  margin: 0;
+  padding: 0;
+  font-family: "Quicksand", sans-serif;
+  font-size: 20px;
+}
+
+header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  max-width: 90%;
+  padding: 20px 0;
+  position: absolute;
+  width: 100%;
+  margin-left: 50px;
+}
+
+header nav {
+  display: flex;
+  gap: 30px;
+}
+
+header nav a {
+  text-decoration: none;
+  color: #f5f3a0;
+  padding: 5px 10px;
+  text-shadow: 1px 1px 5px rgba(0, 0, 0, 0.5);
+}
+
+header nav a:hover {
+  background-color: #dcdc22;
+  color: #0e0e0e;
+  border-radius: 8px;
+  text-shadow: none;
+}
+
+#logo {
+  text-transform: uppercase;
+  text-shadow: 1px 3px 1px rgba(0, 0, 0, 0.5);
+  text-decoration: none;
+}
+
+#logo h1 {
+  font-family: "Oleo Script", cursive;
+  font-size: 50px;
+  color: #f5f3a0;
+}
