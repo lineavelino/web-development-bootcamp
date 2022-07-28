@@ -46,3 +46,15 @@ header nav a:hover {
   font-size: 50px;
   color: #f5f3a0;
 }
+
+footer {
+  background: linear-gradient(#161616, #0e0e0e);
+  padding: 20px;
+  display: flex;
+  justify-content: center;
+  gap: 20px;
+}
+
+footer img {
+  height: 50px;
+}
