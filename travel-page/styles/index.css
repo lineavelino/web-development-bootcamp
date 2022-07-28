@@ -46,3 +46,44 @@
 #box-explore a:hover {
   background-color: #f7f738;
 }
+
+#highlights {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  text-transform: uppercase;
+  background: linear-gradient(45deg, #dceced, #c4edf0);
+  padding: 50px 0;
+}
+
+#highlights h2 {
+  font-size: 30px;
+  padding-bottom: 20px;
+}
+
+#highlights ul {
+  display: flex;
+  list-style: none;
+  gap: 25px;
+}
+
+#highlights li {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 15px;
+  width: 300px;
+  color: #3e3d3d;
+}
+
+#highlights img {
+  width: 90%;
+  height: 200px;
+  border-radius: 8px;
+  object-fit: cover;
+  box-shadow: 1px 5px 5px rgba(0, 0, 0, 0.5);
+}
+
+#highlights strong {
+  color: #21218d;
+}
