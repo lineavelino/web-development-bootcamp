@@ -8,25 +8,25 @@
 
 ## ✅ Seções
 
-- [x]  Building a first website: HTML & CSS Basics
-- [x]  Diving deeper into HTML & CSS
-- [x]  HTML & CSS - Practice & Summary
-- [x]  Serving a website (Hosting & Deployment)
-- [x]  Version control with Git & Github
-- [ ]  Understanding HTML & CSS Layouts e Positioning
-- [ ]  Understanding Responsive Web Design
-- [ ]  Creating Beautiful Websites
-- [ ]  Adding forms to websites
-- [ ]  Understanding the JavaScript Basics
-- [ ]  Advanced JavaScript: Working with the DOM
-- [ ]  Advanced JavaScript: Control structures
-- [ ]  Milestone project: Building a tic-tac-toe game
-- [ ]  Working with third-party packages
-- [ ]  Onwards to backend development
-- [ ]  NodeJS Introduction
-- [ ]  Enhancing NodeJS with ExpressJS
-- [ ]  Static & dinamic content with templates (EJS)
-- [ ]  Handling dynamic routes (URLs), errors & Manag. bigger Express projects
+- [x] Building a first website: HTML & CSS Basics
+- [x] Diving deeper into HTML & CSS
+- [x] HTML & CSS - Practice & Summary
+- [x] Serving a website (Hosting & Deployment)
+- [x] Version control with Git & Github
+- [x] Understanding HTML & CSS Layouts e Positioning
+- [ ] Understanding Responsive Web Design
+- [ ] Creating Beautiful Websites
+- [ ] Adding forms to websites
+- [ ] Understanding the JavaScript Basics
+- [ ] Advanced JavaScript: Working with the DOM
+- [ ] Advanced JavaScript: Control structures
+- [ ] Milestone project: Building a tic-tac-toe game
+- [ ] Working with third-party packages
+- [ ] Onwards to backend development
+- [ ] NodeJS Introduction
+- [ ] Enhancing NodeJS with ExpressJS
+- [ ] Static & dinamic content with templates (EJS)
+- [ ] Handling dynamic routes (URLs), errors & Manag. bigger Express projects
 
 ## 🚀 Tecnologias utilizadas
 
