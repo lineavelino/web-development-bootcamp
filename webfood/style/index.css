@@ -38,6 +38,7 @@ main h1 {
   text-align: center;
   color: #dd9002;
   padding: 20px 0;
+  font-size: 48px;
 }
 
 main ul {
@@ -49,10 +50,10 @@ main ul {
 }
 
 main li {
-  background-color: #f3f6f8;
+  background-color: #e4ceb6;
   border-radius: 8px;
   text-align: center;
-  width: 300px;
+  width: 350px;
   overflow: hidden;
   display: flex;
   flex-direction: column;
@@ -60,7 +61,7 @@ main li {
 }
 
 li img {
-  height: 200px;
+  height: 240px;
   object-fit: cover;
 }
 
