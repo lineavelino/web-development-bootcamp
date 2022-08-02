@@ -12,6 +12,7 @@ header {
   padding: 1.2rem 3rem;
   display: flex;
   justify-content: space-between;
+  align-items: center;
 }
 
 header a {
@@ -32,6 +33,24 @@ header a:hover {
 header nav {
   display: flex;
   gap: 1.2rem;
+}
+
+.menu-btn {
+  height: 1.5rem;
+  width: 2rem;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-around;
+}
+
+.menu-btn span {
+  height: 3px;
+  width: 100%;
+  background-color: #6b4646;
+}
+
+.menu-btn:hover span {
+  background-color: #7e6c6c;
 }
 
 main h1 {
