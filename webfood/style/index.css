@@ -78,3 +78,22 @@ li a {
 li a:hover {
   background-color: #c26f04;
 }
+
+@media (max-width: 48rem) {
+  header nav {
+    visibility: hidden;
+  }
+
+  main h1 {
+    font-size: 1.5rem;
+  }
+
+  main ul {
+    flex-direction: column;
+    align-items: center;
+  }
+
+  main li {
+    width: 80%;
+  }
+}
