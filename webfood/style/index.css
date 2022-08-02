@@ -9,7 +9,7 @@ body {
 
 header {
   background-color: #1c1919;
-  padding: 20px 50px;
+  padding: 1.2rem 3rem;
   display: flex;
   justify-content: space-between;
 }
@@ -26,42 +26,42 @@ header a:hover {
 #logo {
   text-transform: uppercase;
   font-weight: bold;
-  font-size: 20px;
+  font-size: 1.2rem;
 }
 
 header nav {
   display: flex;
-  gap: 20px;
+  gap: 1.2rem;
 }
 
 main h1 {
   text-align: center;
   color: #dd9002;
-  padding: 20px 0;
-  font-size: 48px;
+  padding: 1.2rem 0;
+  font-size: 3rem;
 }
 
 main ul {
   display: flex;
   list-style: none;
   justify-content: center;
-  gap: 20px;
-  padding: 20px;
+  gap: 1.2rem;
+  padding: 1.2rem 0;
 }
 
 main li {
   background-color: #e4ceb6;
   border-radius: 8px;
   text-align: center;
-  width: 350px;
+  width: 40%;
   overflow: hidden;
   display: flex;
   flex-direction: column;
-  gap: 8px;
+  gap: 0.5rem;
 }
 
 li img {
-  height: 240px;
+  height: 15rem;
   object-fit: cover;
 }
 
@@ -70,8 +70,8 @@ li a {
   text-decoration: none;
   color: #f3f6f8;
   width: fit-content;
-  margin: 0 auto 8px auto;
-  padding: 8px 20px;
+  margin: 0 auto 0.5rem auto;
+  padding: 0.5rem 1.2rem;
   border-radius: 8px;
 }
 
