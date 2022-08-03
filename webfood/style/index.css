@@ -9,10 +9,11 @@ body {
 
 header {
   background-color: #1c1919;
-  padding: 1.2rem 3rem;
+  padding: 1.2rem 2rem;
   display: flex;
   justify-content: space-between;
   align-items: center;
+  height: 2rem;
 }
 
 header a {
@@ -38,7 +39,7 @@ header nav {
 .menu-btn {
   height: 1.5rem;
   width: 2rem;
-  display: flex;
+  display: none;
   flex-direction: column;
   justify-content: space-around;
 }
@@ -54,12 +55,21 @@ header nav {
 }
 
 #options-hamburger {
+  display: none;
   position: fixed;
-  height: 100%;
-  width: 100%;
+  height: 100vh;
+  width: 100vw;
   top: 0;
   left: 0;
-  background-color: #1b1818;
+  background-color: #1c1919;
+}
+
+#options-hamburger:target {
+  display: block;
+}
+
+#options-hamburger header {
+  justify-content: flex-end;
 }
 
 #options-hamburger ul {
@@ -68,7 +78,7 @@ header nav {
   flex-direction: column;
   align-items: center;
   gap: 1.2rem;
-  padding-top: 5rem;
+  padding: 5rem;
 }
 
 #options-hamburger a {
@@ -122,12 +132,20 @@ li a:hover {
 }
 
 @media (max-width: 48rem) {
+  #logo {
+    font-size: 1rem;
+  }
+
   header nav {
     visibility: hidden;
   }
 
+  .menu-btn {
+    display: flex;
+  }
+
   main h1 {
-    font-size: 1.5rem;
+    font-size: 2.5rem;
   }
 
   main ul {
