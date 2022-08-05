@@ -1,0 +1,61 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color: #f7f3f3;
+  font-family: "Roboto", sans-serif;
+}
+
+.container {
+  width: 20rem;
+  background-color: #fdfbfb;
+  box-shadow: 1px 1px 10px rgba(0, 0, 0, 0.3);
+  padding: 1.5rem 2.5rem;
+  display: flex;
+  flex-direction: column;
+  gap: 1rem;
+}
+
+header h1 {
+  font-family: "Faustina", serif;
+}
+
+.price {
+  text-align: center;
+}
+
+.price h2 {
+  font-family: "Poppins", sans-serif;
+  background-color: #9dd8fa;
+  font-size: 2rem;
+  position: relative;
+  right: 40px;
+  width: 20rem;
+}
+
+.details ul {
+  list-style: none;
+  line-height: 1.7rem;
+}
+
+#join-btn {
+  border: 1px solid #d8d3d3;
+  text-transform: uppercase;
+  text-align: center;
+  padding: 0.5rem 0;
+  text-decoration: none;
+  color: #00aaff;
+  font-weight: bold;
+}
+
+#join-btn:hover {
+  background-color: #00aaff;
+  color: #eaeef5;
+}
