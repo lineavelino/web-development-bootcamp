@@ -10,7 +10,7 @@ body {
   justify-content: center;
   align-items: center;
   background-color: #f7f3f3;
-  font-family: "Roboto", sans-serif;
+  font-family: "Krub", sans-serif;
 }
 
 .container {
@@ -24,7 +24,8 @@ body {
 }
 
 header h1 {
-  font-family: "Faustina", serif;
+  font-family: "Zilla Slab", serif;
+  font-weight: 600;
 }
 
 .price {
