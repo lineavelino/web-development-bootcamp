@@ -43,7 +43,18 @@ header h1 {
 
 .details ul {
   list-style: none;
-  line-height: 1.7rem;
+  line-height: 2rem;
+  color: var(--color-grey-700);
+}
+
+li {
+  display: flex;
+  align-items: center;
+  gap: 0.5rem;
+}
+
+img {
+  height: 0.7rem;
 }
 
 #join-btn {
