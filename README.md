@@ -14,9 +14,9 @@
 - [x] Serving a website (Hosting & Deployment)
 - [x] Version control with Git & Github
 - [x] Understanding HTML & CSS Layouts e Positioning
-- [ ] Understanding Responsive Web Design
-- [ ] Creating Beautiful Websites
-- [ ] Adding forms to websites
+- [x] Understanding Responsive Web Design
+- [x] Creating Beautiful Websites
+- [x] Adding forms to websites
 - [ ] Understanding the JavaScript Basics
 - [ ] Advanced JavaScript: Working with the DOM
 - [ ] Advanced JavaScript: Control structures
