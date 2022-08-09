@@ -35,6 +35,11 @@ body {
   flex-direction: column;
   gap: 1rem;
   color: var(--color-grey-900);
+  transition: transform 0.1s ease-out 0.1s;
+}
+
+.container:hover {
+  transform: scale(1.05);
 }
 
 p {
@@ -87,6 +92,7 @@ img {
   color: var(--primary-color-500);
   font-weight: 600;
   font-size: 1.2rem;
+  transition: background-color 0.5s;
 }
 
 #join-btn:hover {
