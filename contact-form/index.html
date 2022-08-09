@@ -25,7 +25,7 @@
       <h1>Contact Us</h1>
     </header>
     <main>
-      <form action="">
+    <form action="/challenge" method="get">
         <section id="personal-infos">
           <h2>How can we help you?</h2>
           <ul>
@@ -70,7 +70,7 @@
         </section>
         <section id="origin">
           <label for="source">How did you find us?</label>
-          <select name="user-source" id="source">
+        <select name="user-source" id="source" required>
             <option value="web-search">Web Search</option>
             <option value="word-mouth">Word Of Mouth</option>
             <option value="other">Other</option>
@@ -112,7 +112,7 @@
           </ul>
         </section>
         <section id="terms">
-          <input type="checkbox" name="terms" id="accept-terms" />
+        <input type="checkbox" name="terms" id="accept-terms" required />
           <label for="accept-terms">Accept Terms</label>
         </section>
         <section id="buttons">
