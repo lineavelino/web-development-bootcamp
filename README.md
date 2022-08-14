@@ -17,7 +17,7 @@
 - [x] Understanding Responsive Web Design
 - [x] Creating Beautiful Websites
 - [x] Adding forms to websites
-- [ ] Understanding the JavaScript Basics
+- [x] Understanding the JavaScript Basics
 - [ ] Advanced JavaScript: Working with the DOM
 - [ ] Advanced JavaScript: Control structures
 - [ ] Milestone project: Building a tic-tac-toe game
