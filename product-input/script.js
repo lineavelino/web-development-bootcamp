@@ -9,6 +9,7 @@ let usedChar = 0;
 
 paragraph.textContent = `${availableLength}/${maxLength}`;
 
+productInput.maxLength = maxLength;
 productInput.addEventListener(
   "input",
   updateAvailableLength
