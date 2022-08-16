@@ -19,10 +19,22 @@ function updateAvailableLength(event) {
   getInputText(event);
   availableLength = maxLength - usedChar;
   paragraph.textContent = `${availableLength}/${maxLength}`;
+
+  setWarningColor(availableLength);
 }
 
 function getInputText(event) {
   let enteredText = event.target.value;
   usedChar = enteredText.length;
   return usedChar;
+}
+
+function setWarningColor(availableLength) {
+  if (availableLength < 10) {
+    productInput.className = "warning";
+    paragraph.className = "warning";
+  } else {
+    productInput.className = "";
+    paragraph.className = "";
+  }
 }

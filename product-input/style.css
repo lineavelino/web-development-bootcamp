@@ -40,6 +40,10 @@ h1 {
   color: #4e4e4e;
 }
 
+#input-container p.warning {
+  color: #990d0d;
+}
+
 input {
   height: 2rem;
   width: 30rem;
@@ -54,6 +58,10 @@ input:focus {
   outline: none;
   background-color: #fcf4c1;
   border-color: #c3c7bc;
+}
+
+input.warning {
+  background-color: #eebb8a;
 }
 
 button {
