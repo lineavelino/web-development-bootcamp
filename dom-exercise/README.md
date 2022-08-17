@@ -1,25 +1,60 @@
-Practice what you learned!
+# 📚 100 Days Of Code - Practice what you learned!
 
-1. Select the two `<button>` elements and store them in two different variables.
+> Temas trabalhados nesse projeto: diferentes formas de seleção de elementos HTML com JavaScript, estilização, inserção de event listeners e navegação na árvore de elementos DOM
+>
+> _Status: concluído._
 
-   - Select the first button without adding or using any "id"
-   - Select the second button by using an "id"
+# 🖼️ Screenshot
 
-2. Add "click" event listener to both buttons (with two different functions).
-   The functions should "console.dir()" the clicked buttons.
+![Exercício DOM](../.github/dom-exercise.gif)
 
-   - Output the first button by using the variable in which it's stored
-   - Output the second button WITHOUT using the variable in which it's stored
+## ✅ Instruções do exercício
 
-3. Now select and store the paragraphs mentioned in the text you see on the page
-   (first and third paragraph)
+- [x] 1. Selecione os dois elementos `<button>` e os armazene em duas variáveis diferentes.
 
-   - Select BOTH paragraphs by drilling into the document and "navigating" to the
-     mentioned elements
-   - If you struggle with DOM drilling, use "ids" instead but watch the solution!
+  - Selecione o primeiro botão sem adicionar ou usar "id"
+  - Selecione o segundo botão usando um "id"
 
-4. Change the functions from (2) such that:
-   - The first button removes the third paragraph (i.e. the `<p>` prior to it)
-   - The second button changes the background color of the first paragraph to blue
-5. Solve (4) both by changing the "inline styles" as well as by adding CSS classes
-   Note: You'll have to add those classes to the styles.css file first!
+- [x] 2. Adicione o event listener de "click" em ambos os botões (usando duas funções diferentes).
+     As funções devem usar "console.dir()" para mostrar os botões clicados.
+
+  - Saída do primeiro botão usando a variável em que está armazenado
+  - Saída do segundo botão SEM usar a variável em que está armazenado
+
+- [x] 3. Agora selecione e armazene o primeiro e terceiro parágrafo
+
+  - Selecione AMBOS os parágrafos "navegando" o documento para o
+    elementos mencionados
+
+- [x] 4. Altere as funções de (2) para que:
+
+  - O primeiro botão remova o terceiro parágrafo (ou seja, o `<p>` antes dele)
+  - O segundo botão altere a cor de fundo do primeiro parágrafo para azul
+
+- [x] 5. Resolva (4) alterando os "estilos inline" e adicionando classes CSS
+
+## 🚀 Tecnologias utilizadas
+
+- HTML
+- CSS
+- JavaScript
+
+## 💻 Como rodar
+
+1. Clonar o repositório:
+
+```bash
+git clone git@github.com:lineavelino/web-development-bootcamp.git
+```
+
+2. Entrar na pasta do projeto:
+
+```bash
+cd web-development-bootcamp/dom-exercise
+```
+
+3. Abrir no editor (manualmente ou pela linha de código, como no exemplo):
+
+```bash
+code .
+```
