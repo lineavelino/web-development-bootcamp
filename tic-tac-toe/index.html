@@ -8,6 +8,8 @@
       content="width=device-width, initial-scale=1.0"
     />
 
+    <title>Tic Tac Toe</title>
+
     <link
       rel="preconnect"
       href="https://fonts.googleapis.com"
@@ -29,7 +31,8 @@
     />
     <link rel="stylesheet" href="/styles/game-board.css" />
 
-    <title>Tic Tac Toe</title>
+    <script src="/scripts/app.js" defer></script>
+    <script src="/scripts/config.js" defer></script>
   </head>
 
   <body>
@@ -46,27 +49,31 @@
         class="modal-content"
         id="player-modal-content"
       >
-          <h2>Choose your name</h2>
+        <h2>Choose your name</h2>
 
-          <form>
-            <div>
-              <label for="player-name">Player name</label>
-              <input
-                type="text"
-                id="player-name"
-                name="playername"
-              />
-            </div>
-            <div>
-              <button type="button" class="btn btn-alt">
-                Cancel
-              </button>
-              <button type="submit" class="btn">
-                Confirm
-              </button>
-            </div>
-          </form>
-        </aside>
+        <form>
+          <div>
+            <label for="player-name">Player name</label>
+            <input
+              type="text"
+              id="player-name"
+              name="playername"
+            />
+          </div>
+          <div>
+            <button
+              type="button"
+              class="btn btn-alt"
+              id="cancel-button"
+            >
+              Cancel
+            </button>
+            <button type="submit" class="btn">
+              Confirm
+            </button>
+          </div>
+        </form>
+      </aside>
 
       <section id="info-players">
         <ol>
@@ -74,7 +81,11 @@
             <h2>Player 1</h2>
             <h3>PLAYER NAME</h3>
             <p class="player-symbol">X</p>
-            <button type="button" class="btn btn-alt">
+            <button
+              type="button"
+              class="btn btn-alt"
+              id="edit-player1"
+            >
               Edit
             </button>
           </li>
@@ -82,7 +93,11 @@
             <h2>Player 2</h2>
             <h3>PLAYER NAME</h3>
             <p class="player-symbol">O</p>
-            <button type="button" class="btn btn-alt">
+            <button
+              type="button"
+              class="btn btn-alt"
+              id="edit-player2"
+            >
               Edit
             </button>
           </li>
