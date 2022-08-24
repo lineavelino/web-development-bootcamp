@@ -33,6 +33,7 @@
   </head>
 
   <body>
+    <div id="modal-background"></div>
     <header>
       <h1>Play Tic, Tac, Toe</h1>
       <p>
@@ -41,8 +42,10 @@
     </header>
 
     <main>
-      <div class="modal">
-        <aside class="modal-content">
+      <aside
+        class="modal-content"
+        id="player-modal-content"
+      >
           <h2>Choose your name</h2>
 
           <form>
@@ -64,7 +67,6 @@
             </div>
           </form>
         </aside>
-      </div>
 
       <section id="info-players">
         <ol>
