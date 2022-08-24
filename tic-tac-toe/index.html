@@ -22,6 +22,11 @@
       rel="stylesheet"
     />
     <link rel="stylesheet" href="/styles/style.css" />
+    <link rel="stylesheet" href="/styles/modal.css" />
+    <link
+      rel="stylesheet"
+      href="/styles/configuration.css"
+    />
 
     <title>Tic Tac Toe</title>
   </head>
@@ -34,19 +39,21 @@
       </p>
     </header>
 
-    <aside>
-      <div>
-        <h2>Choose your name</h2>
-        <label for="player-name">Player name</label>
-        <input type="text" id="player-name" />
-      </div>
-      <div>
-        <button type="button" class="btn btn-alt">
-          Cancel
-        </button>
-        <button type="submit" class="btn">Confirm</button>
-      </div>
-    </aside>
+    <div class="modal">
+      <aside class="modal-content">
+        <div>
+          <h2>Choose your name</h2>
+          <label for="player-name">Player name</label>
+          <input type="text" id="player-name" />
+        </div>
+        <div>
+          <button type="button" class="btn btn-alt">
+            Cancel
+          </button>
+          <button type="submit" class="btn">Confirm</button>
+        </div>
+      </aside>
+    </div>
 
     <main>
       <section id="info-players">
@@ -54,7 +61,7 @@
           <li>
             <h2>Player 1</h2>
             <h3>PLAYER NAME</h3>
-            <p>X</p>
+            <p class="player-symbol">X</p>
             <button type="button" class="btn btn-alt">
               Edit
             </button>
@@ -62,7 +69,7 @@
           <li>
             <h2>Player 2</h2>
             <h3>PLAYER NAME</h3>
-            <p>O</p>
+            <p class="player-symbol">O</p>
             <button type="button" class="btn btn-alt">
               Edit
             </button>

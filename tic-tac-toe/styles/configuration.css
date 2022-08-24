@@ -1,0 +1,35 @@
+#info-players {
+  text-align: center;
+  padding: 3rem;
+}
+
+#info-players ol {
+  list-style: none;
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  gap: 1rem;
+  width: 30rem;
+  margin: 0 auto;
+  margin-bottom: 1rem;
+}
+
+#info-players li {
+  background-color: #eedbee;
+  padding: 1rem;
+  border-radius: 4px;
+  box-shadow: 1px 1px 3px #b3afaf;
+}
+
+#info-players h2 {
+  font-size: 0.8rem;
+}
+
+#info-players h3 {
+  font-size: 1.3rem;
+  color: #800080;
+}
+
+.player-symbol {
+  font-weight: bold;
+  font-size: 1.5rem;
+}

@@ -1,0 +1,35 @@
+.modal {
+  background-color: rgba(0, 0, 0, 0.8);
+  position: fixed;
+  top: 0;
+  width: 100%;
+  height: 100%;
+  text-align: center;
+  display: flex;
+  justify-content: center;
+}
+
+.modal-content {
+  background-color: #f2e9f8;
+  width: 50%;
+  height: 30%;
+  margin-top: 7rem;
+  padding: 1rem;
+  border-radius: 8px;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-around;
+}
+
+.modal-content label {
+  display: block;
+  font-weight: bold;
+  margin: 0.5rem 0;
+}
+
+.modal-content input {
+  font: inherit;
+  width: 15rem;
+  border: 1px solid #b9b9b9;
+  padding: 0.3rem;
+}
