@@ -1,0 +1,79 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta
+      name="viewport"
+      content="width=device-width, initial-scale=1.0"
+    />
+    <title>Tic Tac Toe</title>
+  </head>
+
+  <body>
+    <header>
+      <h1>Play Tic, Tac, Toe</h1>
+      <p>
+        Built with HTML, CSS, JavaScript and lots of love!
+      </p>
+    </header>
+
+    <aside>
+      <div>
+        <h2>Choose your name</h2>
+        <label for="player-name">Player name</label>
+        <input type="text" id="player-name" />
+      </div>
+      <div>
+        <button type="button">Cancel</button>
+        <button type="submit">Confirm</button>
+      </div>
+    </aside>
+
+    <main>
+      <section id="info-players">
+        <ol>
+          <li>
+            <h2>Player 1</h2>
+            <h3>PLAYER NAME</h3>
+            <p>X</p>
+            <button type="button">Edit</button>
+          </li>
+          <li>
+            <h2>Player 2</h2>
+            <h3>PLAYER NAME</h3>
+            <p>O</p>
+            <button type="button">Edit</button>
+          </li>
+        </ol>
+        <button type="button">Start New Game</button>
+      </section>
+
+      <section id="board-game">
+        <aside>
+          <h2>You won, PLAYER NAME!</h2>
+          <p>
+            Click "Start New Game" above to start a new
+            game.
+          </p>
+        </aside>
+
+        <p>It's your turn, <span>PLAYER NAME</span>!</p>
+
+        <ol>
+          <li></li>
+          <li></li>
+          <li></li>
+
+          <li></li>
+          <li></li>
+          <li></li>
+
+          <li></li>
+          <li></li>
+          <li></li>
+        </ol>
+      </section>
+    </main>
+  </body>
+</html>
