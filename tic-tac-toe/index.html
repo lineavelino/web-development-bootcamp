@@ -7,6 +7,22 @@
       name="viewport"
       content="width=device-width, initial-scale=1.0"
     />
+
+    <link
+      rel="preconnect"
+      href="https://fonts.googleapis.com"
+    />
+    <link
+      rel="preconnect"
+      href="https://fonts.gstatic.com"
+      crossorigin
+    />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Open+Sans:wght@400;700&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" href="/styles/style.css" />
+
     <title>Tic Tac Toe</title>
   </head>
 
@@ -25,8 +41,10 @@
         <input type="text" id="player-name" />
       </div>
       <div>
-        <button type="button">Cancel</button>
-        <button type="submit">Confirm</button>
+        <button type="button" class="btn btn-alt">
+          Cancel
+        </button>
+        <button type="submit" class="btn">Confirm</button>
       </div>
     </aside>
 
@@ -37,16 +55,22 @@
             <h2>Player 1</h2>
             <h3>PLAYER NAME</h3>
             <p>X</p>
-            <button type="button">Edit</button>
+            <button type="button" class="btn btn-alt">
+              Edit
+            </button>
           </li>
           <li>
             <h2>Player 2</h2>
             <h3>PLAYER NAME</h3>
             <p>O</p>
-            <button type="button">Edit</button>
+            <button type="button" class="btn btn-alt">
+              Edit
+            </button>
           </li>
         </ol>
-        <button type="button">Start New Game</button>
+        <button type="button" class="btn">
+          Start New Game
+        </button>
       </section>
 
       <section id="board-game">
