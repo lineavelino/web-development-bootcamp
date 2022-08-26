@@ -13,6 +13,7 @@ const playerModalContent = document.getElementById(
 );
 
 const modalForm = document.querySelector("form");
+const inputModal = document.getElementById("player-name");
 
 const pErrorMessage =
   document.getElementById("error-message");

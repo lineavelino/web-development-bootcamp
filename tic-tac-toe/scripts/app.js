@@ -1,4 +1,20 @@
-function openPlayerModal() {
+let playerId = 0;
+
+const players = [
+  {
+    name: "",
+    symbol: "X",
+  },
+  {
+    name: "",
+    symbol: "O",
+  },
+];
+
+function openPlayerModal(event) {
+  playerId = event.target.dataset.playerid;
+  inputModal.value = "";
+
   modalBackground.style.display = "block";
   playerModalContent.style.display = "block";
 }
@@ -22,4 +38,14 @@ function savePlayerName(event) {
     modalForm.classList.add("error");
     return;
   }
+
+  const playerNameElement = document.getElementById(
+    `player-${playerId}-name`
+  );
+
+  playerNameElement.textContent = enteredName;
+
+  players[playerId - 1].name = enteredName;
+
+  closePlayerModal();
 }
