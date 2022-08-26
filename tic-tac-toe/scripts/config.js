@@ -14,6 +14,9 @@ const playerModalContent = document.getElementById(
 
 const modalForm = document.querySelector("form");
 
+const pErrorMessage =
+  document.getElementById("error-message");
+
 editPlayer1Button.addEventListener(
   "click",
   openPlayerModal

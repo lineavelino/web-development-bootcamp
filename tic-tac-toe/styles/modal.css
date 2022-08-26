@@ -36,3 +36,12 @@
   border: 1px solid #b9b9b9;
   padding: 0.3rem;
 }
+
+.error {
+  color: #8f0909;
+}
+
+.error input {
+  background-color: #eed9c0;
+  border-color: #8f0909;
+}
