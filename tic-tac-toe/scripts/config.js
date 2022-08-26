@@ -12,6 +12,8 @@ const playerModalContent = document.getElementById(
   "player-modal-content"
 );
 
+const modalForm = document.querySelector("form");
+
 editPlayer1Button.addEventListener(
   "click",
   openPlayerModal
@@ -24,4 +26,7 @@ closeModalButton.addEventListener(
   "click",
   closePlayerModal
 );
+
 modalBackground.addEventListener("click", closePlayerModal);
+
+modalForm.addEventListener("submit", savePlayerName);
