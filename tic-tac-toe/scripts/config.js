@@ -13,14 +13,16 @@ const modalBackground = document.getElementById(
 const playerModalContent = document.getElementById(
   "player-modal-content"
 );
-
 const modalForm = document.querySelector("form");
 const inputModal = document.getElementById("player-name");
 
 const pErrorMessage =
   document.getElementById("error-message");
-
 const boardGame = document.getElementById("board-game");
+const fieldsGame = document.querySelector("#board-game ol");
+const playerName = document.querySelector(
+  "#board-game span"
+);
 
 editPlayer1Button.addEventListener(
   "click",
@@ -37,5 +39,6 @@ closeModalButton.addEventListener(
 startGameButton.addEventListener("click", openBoardGame);
 
 modalBackground.addEventListener("click", closePlayerModal);
-
 modalForm.addEventListener("submit", savePlayerName);
+
+fieldsGame.addEventListener("click", selectField);
