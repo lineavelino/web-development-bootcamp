@@ -32,6 +32,7 @@
     <link rel="stylesheet" href="/styles/game-board.css" />
 
     <script src="/scripts/app.js" defer></script>
+    <script src="/scripts/game.js" defer></script>
     <script src="/scripts/config.js" defer></script>
   </head>
 
@@ -106,7 +107,7 @@
             </button>
           </li>
         </ol>
-        <button type="button" class="btn">
+        <button type="button" class="btn" id="start-game">
           Start New Game
         </button>
       </section>
@@ -123,15 +124,15 @@
         <p>It's your turn, <span>PLAYER NAME</span>!</p>
 
         <ol>
-          <li class="box-selected">X</li>
           <li></li>
-          <li class="box-selected">O</li>
-
           <li></li>
-          <li class="box-selected">X</li>
           <li></li>
 
-          <li class="box-selected">O</li>
+          <li></li>
+          <li></li>
+          <li></li>
+
+          <li></li>
           <li></li>
           <li></li>
         </ol>
