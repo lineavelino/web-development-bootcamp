@@ -1,3 +1,9 @@
+const gameData = [
+  [0, 0, 0],
+  [0, 0, 0],
+  [0, 0, 0],
+];
+
 let playerId = 0;
 
 const players = [
