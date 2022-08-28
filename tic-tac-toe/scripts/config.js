@@ -18,6 +18,8 @@ const inputModal = document.getElementById("player-name");
 
 const pErrorMessage =
   document.getElementById("error-message");
+const finalMessage =
+  document.getElementById("final-message");
 const boardGame = document.getElementById("board-game");
 const fieldsGame = document.querySelector("#board-game ol");
 const playerName = document.querySelector(

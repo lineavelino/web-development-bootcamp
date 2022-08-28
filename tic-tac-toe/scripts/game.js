@@ -1,11 +1,14 @@
 let activePlayer = 0;
 let round = 1;
+let gameIsOver = false;
 
 function openBoardGame() {
   if (players[0].name === "" || players[1].name === "") {
     alert("Please set both players name.");
     return;
   }
+
+  resetGame();
 
   playerName.textContent = players[activePlayer].name;
   boardGame.style.display = "block";
@@ -18,7 +21,10 @@ function switchPlayer() {
 
   playerName.textContent = players[activePlayer].name;
   round++;
-  checkGameOver();
+  const winnerId = checkGameOver();
+  if (winnerId != 0) {
+    endGame(winnerId);
+  }
 }
 
 function selectField(event) {
@@ -26,7 +32,7 @@ function selectField(event) {
   const selectedColumn = field.dataset.col - 1;
   const selectedRow = field.dataset.row - 1;
 
-  if (field.tagName !== "LI") {
+  if (field.tagName !== "LI" || gameIsOver) {
     return;
   }
 
@@ -87,4 +93,38 @@ function checkGameOver() {
   }
 
   return 0;
+}
+
+function endGame(winnerId) {
+  gameIsOver = true;
+  finalMessage.style.display = "block";
+  const h2 = finalMessage.firstElementChild;
+
+  if (winnerId > 0) {
+    h2.firstElementChild.textContent =
+      players[winnerId - 1].name;
+  } else {
+    h2.textContent = "It's a draw";
+  }
+}
+
+function resetGame() {
+  gameIsOver = false;
+  round = 1;
+  finalMessage.style.display = "none";
+  activePlayer = 0;
+  playerName.textContent = players[activePlayer].name;
+  finalMessage.firstElementChild.innerHTML =
+    "You won, <strong>PLAYER NAME</strong>!";
+
+  let gameBoardIndex = 0;
+  for (let i = 0; i < gameData.length; i++) {
+    for (let j = 0; j < gameData[i].length; j++) {
+      gameData[i][j] = 0;
+      const fieldGame = fieldsGame.children[gameBoardIndex];
+      fieldGame.textContent = "";
+      fieldGame.classList.remove("box-selected");
+      gameBoardIndex++;
+    }
+  }
 }
