@@ -15,3 +15,5 @@
      with ANY list of values
    - The custom command should provide the accessed value (i.e. the list element)
 6. Execute your custom command from (5) and output ("alert") the result
+
+![js-exercise](../.github/exercise-js.png)

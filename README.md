@@ -18,15 +18,32 @@
 - [x] Creating Beautiful Websites
 - [x] Adding forms to websites
 - [x] Understanding the JavaScript Basics
-- [ ] Advanced JavaScript: Working with the DOM
-- [ ] Advanced JavaScript: Control structures
-- [ ] Milestone project: Building a tic-tac-toe game
-- [ ] Working with third-party packages
-- [ ] Onwards to backend development
-- [ ] NodeJS Introduction
+- [x] Advanced JavaScript: Working with the DOM
+- [x] Advanced JavaScript: Control structures
+- [x] Milestone project: Building a tic-tac-toe game
+- [x] Working with third-party packages
+- [x] Onwards to backend development
+- [x] NodeJS Introduction
 - [ ] Enhancing NodeJS with ExpressJS
 - [ ] Static & dinamic content with templates (EJS)
 - [ ] Handling dynamic routes (URLs), errors & Manag. bigger Express projects
+- [ ] More advanced JavaScript concepts
+- [ ] Onwards to databases
+- [ ] SQL databases - Introduction & core concepts
+- [ ] Using MySQL in NodeJS & Express websites
+- [ ] NoSQL & MongoDB - Introduction
+- [ ] NodeJS & MongoDB (NoSQL)
+- [ ] Adding file upload to a website
+- [ ] Ajax & asynchronous JS-driven Http requests
+- [ ] User authentication & working with sessions
+- [ ] Security
+- [ ] Writing good code, refactoring & the MVC pattern
+- [ ] Milestone project: a complete online shop
+- [ ] Working with services & APIs - adding Stripe payments
+- [ ] Deploying websites
+- [ ] Web services & building custom (rest APIs)
+- [ ] Introducing Vue.js
+- [ ] Course summary & where to go next
 
 ## 🚀 Tecnologias utilizadas
 
