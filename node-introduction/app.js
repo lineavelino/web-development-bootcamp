@@ -32,4 +32,22 @@ app.get("/currenttime", function(req, res) {
   res.end("<h1>" + new Date().toISOString() + "</h1>")
 })
 
+app.get("/users", function(req, res) {
+  const filePath = path.join(__dirname, "data", "users.json")
+
+  const fileData = fs.readFileSync(filePath)
+
+  const existingUsers = JSON.parse(fileData)
+
+  let responseData = "<ul>"
+
+  for (const user of existingUsers) {
+    responseData += `<li>${user}</li>`
+  }
+
+  responseData += "</ul>"
+
+  res.send(responseData)
+})
+
 app.listen(3000);
