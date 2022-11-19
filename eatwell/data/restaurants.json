@@ -1,9 +1,1 @@
-[
-  {
-    "name": "Mc Donald's",
-    "address": "Av. Rio Branco",
-    "cuisine": "Fast food",
-    "website": "https://www.mcdonalds.com.br/",
-    "description": "It's amazing!"
-  }
-]
+[{"name":"Mc Donald's","address":"Av. Rio Branco","cuisine":"Fast food","website":"https://www.mcdonalds.com.br/","description":"It's amazing!"},{"name":"O Camarão","address":"São Gonçalo Shopping","cuisine":"Frutos do mar","website":"https://ocamarao.com/","description":"Delicious food."}]

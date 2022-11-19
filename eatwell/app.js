@@ -15,7 +15,19 @@ app.get("/", function (req, res) {
 });
 
 app.get("/restaurants", function (req, res) {
-  res.render("restaurants");
+  const filePath = path.join(
+    __dirname,
+    "data",
+    "restaurants.json"
+  );
+
+  const fileData = fs.readFileSync(filePath);
+
+  const existingRestaurants = JSON.parse(fileData);
+
+  res.render("restaurants", {
+    numberOfRestaurants: existingRestaurants.length,
+  });
 });
 
 app.get("/recommend", function (req, res) {
