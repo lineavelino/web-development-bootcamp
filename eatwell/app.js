@@ -27,6 +27,7 @@ app.get("/restaurants", function (req, res) {
 
   res.render("restaurants", {
     numberOfRestaurants: existingRestaurants.length,
+    restaurants: existingRestaurants,
   });
 });
 
