@@ -1,4 +1,6 @@
 const express = require("express")
+const path = require("path")
+const fs = require("fs")
 
 const app = express()
 
@@ -12,6 +14,17 @@ app.get("/", function(req, res) {
 
 app.post("/store-user", function(req, res) {
   const username = req.body.username;
+  
+  const filePath = path.join(__dirname, "data", "users.json")
+
+  const fileData = fs.readFileSync(filePath)
+
+  const existingUsers = JSON.parse(fileData)
+
+  existingUsers.push(username)
+
+  fs.writeFileSync(filePath, JSON.stringify(existingUsers))
+
   res.send(`<h1>Username stored: "${username}"</h1>`);
 })
 
