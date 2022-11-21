@@ -52,6 +52,8 @@ app.get("/restaurants/:id", function (req, res) {
       });
     }
   }
+
+  res.render("404");
 });
 
 app.get("/recommend", function (req, res) {
