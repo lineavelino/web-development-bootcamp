@@ -12,14 +12,14 @@
     <%- include('includes/side-drawer'); %>
 
     <main>
-      <h1>TITLE OF THE RESTAURANT <%= rid %></h1>
+      <h1><%= restaurant.name %></h1>
 
-      <p>Cuisine | Address</p>
+      <p><%= restaurant.cuisine %> | <%= restaurant.address %></p>
 
-      <p>Description of the restaurant</p>
+      <p><%= restaurant.description %></p>
 
       <p>
-        <a href="" target="_blank">View Website</a>
+        <a href="<%= restaurant.website %>" target="_blank">View Website</a>
       </p>
     </main>
   </body>
